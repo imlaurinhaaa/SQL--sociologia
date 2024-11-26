@@ -1,4 +1,4 @@
--- CRIAÇÃO DA TABELA 'CARREIRAS'
+-- CRIAÇÃO DA TABELA 'carreiras'
 
 CREATE TABLE carreiras(
     id_carreira SERIAL PRIMARY KEY,
@@ -20,4 +20,20 @@ INSERT INTO carreiras (titulo_carreira, texto_carreira, img_carreira) VALUES ("P
 ("Gestor(a) de Recursos Humanos", "A gestão de RH é responsável por construir uma relação vantajosa para o colaborador e para a empresa, encontrando pontos em comum onde ambos se beneficiam. Enquanto para a organização devem ser observadas estratégias e resultados almejados, para os funcionários deve-se prezar pelos benefícios e crescimento profissional.", "https://site-sociologia.vercel.app/img/rh.jpg"),
 ("Criminólogo(a)", "A criminologia é uma ciência sociocomportamental que lida com informações úteis para investigações, com processos jurídicos e com adoção de medidas com impacto social. Esses conhecimentos são a base de um trabalho focado na prevenção de crimes e no aumento da segurança das pessoas.", "https://site-sociologia.vercel.app/img/Criminologo2.png"),
 ("Urbanista/Planejador Urbano", "O urbanista é responsável pela organização das cidades, estudos de legislação, criação de áreas verdes, entre outras atividades relacionadas ao desenvolvimento urbano. O papel do urbanista é fundamental para sociedade, pois ele é o profissional que estuda as melhores formas de criar cidades amigáveis. Além disso, o trabalho do urbanista contribui para o bem-estar mental e físico da população, já que melhorias no espaço urbano influenciam diretamente nessas questões.", "https://site-sociologia.vercel.app/img/O-que-um-urbanista-faz-1.webp"),
-("Mediador(a) de Conflitos", "Mediador não é juiz ou advogado. Muito menos médico ou psicólogo. Pode ter a formação de qualquer uma dessas profissões, mas enquanto mediador, seu objetivo é conduzir o processo para a resolução daquele determinado conflito. Sua contribuição pode ser passiva, limitando-se a simplesmente a manter uma linha coerente de discussão, ou pode ser mais ativa, ajudando na resolução de conflitos e conduzindo a situação para uma resolução.", "https://site-sociologia.vercel.app/img/Mediation-014.jpg")
+("Mediador(a) de Conflitos", "Mediador não é juiz ou advogado. Muito menos médico ou psicólogo. Pode ter a formação de qualquer uma dessas profissões, mas enquanto mediador, seu objetivo é conduzir o processo para a resolução daquele determinado conflito. Sua contribuição pode ser passiva, limitando-se a simplesmente a manter uma linha coerente de discussão, ou pode ser mais ativa, ajudando na resolução de conflitos e conduzindo a situação para uma resolução.", "https://site-sociologia.vercel.app/img/Mediation-014.jpg");
+
+-- CRIAÇÃO DA TABELA 'principais_topicos'
+
+CREATE TABLE principais_topicos{
+    id_principais_topicos SERIAL PRIMARY KEY,
+    id_autor INT,
+    topico VARCHAR(150),
+    titulo_principais_topicos(150),
+    texto_principais_topicos TEXT,
+    img_principais_topicos VARCHAR(300),
+    CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autores(id_autor)
+}
+
+-- INSERÇÃO DE DADOS NA TABELA 'principais_topicos'
+
+INSERT INTO principais topicos (id_autor, topico, titulo_principais_topicos, texto_principais_topicos, img_principais_topicos) VALUES ()
