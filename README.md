@@ -19,45 +19,45 @@ sessao_trabalhada VARCHAR (100)
 
 Principais_Topicos:
 id_principal_topico SERIAL PRIMARY KEY
-topico VARCHAR (150)
-titulo VARCHAR (150)
-texto TEXT
-img VARCHAR (300)
+topico_principal_topico VARCHAR (150)
+titulo_principal_topico VARCHAR (150)
+texto_principal_topico TEXT
+img_principal_topico VARCHAR (300)
 fk_autor
 
 Carreiras:
 id_carreira SERIAL PRIMARY KEY
-titulo VARCHAR (150)
-texto TEXT
-img VARCHAR (300)
+titulo_carreira VARCHAR (150)
+texto_carreira TEXT
+img_carreira VARCHAR (300)
 
 Dicas:
 id_dica SERIAL PRIMARY KEY
-titulo VARCHAR (150)
-subtitulo VARCHAR (150)
-texto TEXT
-img VARCHAR (300)
+titulo_dica VARCHAR (150)
+subtitulo_dica VARCHAR (150)
+texto_dica TEXT
+img_dica VARCHAR (300)
 
 Simulados:
 id_simulado SERIAL PRIMARY KEY
-titulo VARCAR (150)
-texto TEXT
-img VARCHAR (300)
-link_questionario URL NOT NULL
+titulo_simulado VARCAR (150)
+texto_simulado TEXT
+img_simulado VARCHAR (300)
+link_questionario VARCHAR (150) NOT NULL
 
 Noticias:
 id_noticia SERIAL PRIMARY KEY
-titulo VARCHAR (150)
-texto TEXT
-img  VARCHAR (300)
+titulo_noticia VARCHAR (150)
+texto_noticia TEXT
+img_noticia VARCHAR (300)
 fk_autor
 
 Vídeo-aulas:
 id_video_aula SERIAL PRIMARY KEY
-titulo VARCHAR(150)
-texto TEXT
-img  VARCHAR (300)
-link_video URL NOT NULL
+titulo_video_aula VARCHAR(150)
+texto_video_aula TEXT
+img_video_aula VARCHAR (300)
+link_aula VARCHAR (300) NOT NULL
 fk_autor
 
 ![DER](<DER- Banco de Dados Sociologia.jpeg>)
