@@ -60,4 +60,7 @@ INSERT INTO noticias (id_noticia, id_autor, titulo_primario, descricao_noticia, 
 INSERT INTO noticias (id_noticia, id_autor, titulo_secundario, subtitulo_secundario, texto_secundario, img_secundario) VALUES ('id_noticias','id_autores', 'FEMINISMO E IGUALDADE DE GÊNERO', 'Uma perspectiva sociológica',  'Nas últimas décadas, o movimento feminista ganhou visibilidade e protagonismo ao redor do mundo, representando uma luta histórica pela igualdade de gênero e pelo fim da discriminação. Sociologicamente, o feminismo é compreendido como uma resposta à estrutura social patriarcal, que perpetua desigualdades e limita as oportunidades das mulheres em diversas esferas, incluindo o trabalho, a política e até a vida familiar.
 
 "Eu levanto minha voz, não para gritar, mas para que aquelas sem voz possam ser ouvidas." - Malala Yousafzai', 'https://site-sociologia.vercel.app/img/feminismo.jpeg'),
+('id_noticias','id_autores', 'INCLUSÃO E VISIBILIDADE LGBTQIA+', 'Uma perspectiva sociológica', 'Em outras palavras, a luta pela inclusão do LGBTQIA+ é a luta das principais mudanças sociais e de um novo estágio na aceitação da peculiaridade humana. Isso implica um novo estágio de liberdade, mas também um novo olhar sociológico que não valoriza mais a unidade, mas sim a diversidade, a força de desenvolvimento social.
+
+“Minha luta é para que possamos ser quem somos, sem que isso seja considerado um afronta a ninguém.” - Laerte Coutinho', 'https://site-sociologia.vercel.app/img/lgbtqia.jpeg' ),
 
