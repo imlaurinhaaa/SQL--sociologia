@@ -19,10 +19,10 @@ sessao_trabalhada VARCHAR (100)
 
 Principais_Topicos:
 id_principal_topico SERIAL PRIMARY KEY
-topico_principal_topico VARCHAR (150)
-titulo_principal_topico VARCHAR (150)
-texto_principal_topico TEXT
-img_principal_topico VARCHAR (300)
+topico VARCHAR (150)
+titulo_principais_topicos VARCHAR (150)
+texto_principais_topicos TEXT
+img_principais_topicos VARCHAR (300)
 fk_autor
 
 Carreiras:
