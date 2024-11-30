@@ -6,11 +6,11 @@ Docentes: Felipe Santos e Thiago Ferreira
 
 Bem-vindo ao banco de dados do site de sociologia! Este banco de dados foi desenvolvido para armazenar organizar e facilitar o acesso a informações relevantes para os estudantes.
 
-# MER do Banco de Dados de Sociologia
+## MER do Banco de Dados de Sociologia
 
 O MER (Modelo de Entidade e Relacionamento) é utilizado para a criação do Banco de Dados Relacionais, aqui está o MER criado pela equipe:
 
-### Autores se relacionam com Notícias, Vídeo Aulas e Principais Tópicos
+#### Autores se relacionam com Notícias, Vídeo Aulas e Principais Tópicos
 
 Autores:
 id_autor SERIAL PRIMARY KEY
@@ -19,6 +19,7 @@ sessao_trabalhada VARCHAR (100)
 
 Principais_Topicos:
 id_principal_topico SERIAL PRIMARY KEY
+id_autor INT
 topico VARCHAR (150)
 titulo_principais_topicos VARCHAR (150)
 texto_principais_topicos TEXT
@@ -47,13 +48,19 @@ link_questionario VARCHAR (150) NOT NULL
 
 Noticias:
 id_noticia SERIAL PRIMARY KEY
-titulo_noticia VARCHAR (150)
-texto_noticia TEXT
-img_noticia VARCHAR (300)
+id_autor INT
+titulo_primario VARCHAR(150)
+descricao_noticia TEXT 
+img_primaria VARCHAR(300)
+titulo_secundario VARCHAR(150)
+subtitulo_secundario VARCHAR(150)
+texto_secundario TEXT
+img_secundario VARCHAR(300)
 fk_autor
 
 Vídeo-aulas:
 id_video_aula SERIAL PRIMARY KEY
+id_autor INT
 titulo_video_aula VARCHAR(150)
 texto_video_aula TEXT
 img_video_aula VARCHAR (300)
