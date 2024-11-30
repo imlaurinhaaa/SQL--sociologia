@@ -76,7 +76,7 @@ CREATE TABLE
         subtitulo_secundario VARCHAR(150),
         texto_secundario TEXT,
         img_secundario VARCHAR(300),
-        CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autor (id)
+    CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autores(id_autor)
     );
 
 /*Inserção de dados na tabela de noticias*/
