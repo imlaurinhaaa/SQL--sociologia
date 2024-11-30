@@ -2,6 +2,7 @@ CREATE DATABASE site_sociologia;
 
 \c site_sociologia;
 
+-- Criação da tabela dicas
 CREATE TABLE dicas (
     id_dica SERIAL PRIMARY KEY,
     titulo_dica VARCHAR(150),
@@ -84,3 +85,8 @@ INSERT INTO dicas (titulo_dica, subtitulo_dica, texto_dica, img_dica)
 VALUES
 ('Dica 19', 'Técnica Pomodoro','A técnica Pomodoro tem o objetivo de aumentar a produtividade por meio de ciclos de tempo em que você se dedica exclusivamente a uma única tarefa. Ou seja, deixa todo o resto de lado para não perder a concentração. Cada ciclo tem 25 minutos e deve ser intercalado por pausas curtas, de até 5 minutos, para descansar a mente. Após 4 ciclos, você pode fazer uma pausa mais longa.', 'https://site-sociologia.vercel.app/img/p');
 
+
+-- Criação do relacionamento entre autores e principais tópicos
+SELECT a.nome_autor, a.sessao_trabalhada, p.id_principais_topicos, p.titulo_principais_topicos, p.texto_principais_topicos, p.img_principais_topicos
+FROM autores a
+JOIN principais_topicos p ON p.id_principais_topicos = p.id_principais_topicos;
