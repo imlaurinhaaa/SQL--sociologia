@@ -38,18 +38,20 @@ INSERT INTO autores (nome_autor, sessao_trabalhada) VALUES
 
 --tabela de video aula
 
-CREATE TABLE video_aula (
+CREATE TABLE video_aulas (
     id_video_aula SERIAL PRIMARY KEY,
     id_autor INT,
-    titulo VARCHAR(150),
-    texto TEXT,
-    IMG VARCHAR(300),
-    Link_video VARCHAR(300) NOT NULL,
-    FOREIGN KEY (id_autor) REFERENCES autor(id)
+    titulo_video_aula VARCHAR(150),
+    texto_video_aula TEXT,
+    img_video_aula VARCHAR(300),
+    link_video_aula VARCHAR(300) NOT NULL,
+    CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autores(id_autor)
 )
 
-INSERT INTO video_aula (id_autor, titulo, texto, IMG, Link_video) VALUES 
-(NULL, 'Video_aulas', 'Seja bem-vindo à nossa sessão de vídeo aulas de Sociologia, desenvolvida especialmente para quem está se preparando para o vestibular! Aqui, vamos explorar os principais conceitos, teorias e pensadores que são essenciais para a compreensão da sociedade e das dinâmicas sociais. Nossas aulas foram pensadas para facilitar o seu aprendizado, com conteúdos claros e bem estruturados, que vão te ajudar a conectar as teorias sociológicas com o mundo ao seu redor. Prepare-se para aprofundar seus conhecimentos e garantir uma excelente preparação para o vestibular!', NULL, NULL),
-(NULL, 'Professor Luis', 'O Professor Luis, da rede SESI Valinhos 299, foi peça-chave na criação de uma série de videoaulas de Sociologia, trazendo sua experiência e dedicação para tornar o conteúdo mais acessível e interessante. Abordando temas essenciais da Sociologia de forma clara e envolvente, sempre buscando conectar a teoria com situações do dia a dia. Com esse projeto, os alunos têm a oportunidade de aprender no próprio ritmo e revisitar as aulas sempre que quiserem, tornando o estudo da Sociologia ainda mais próximo e aplicável à realidade deles.', https://site-sociologia.vercel.app/img/luiz-professor-foto.png, NULL),
+INSERT INTO video_aulas (titulo_video_aula, texto_video_aula) VALUES 
+('Video_aulas', 'Seja bem-vindo à nossa sessão de vídeo aulas de Sociologia, desenvolvida especialmente para quem está se preparando para o vestibular! Aqui, vamos explorar os principais conceitos, teorias e pensadores que são essenciais para a compreensão da sociedade e das dinâmicas sociais. Nossas aulas foram pensadas para facilitar o seu aprendizado, com conteúdos claros e bem estruturados, que vão te ajudar a conectar as teorias sociológicas com o mundo ao seu redor. Prepare-se para aprofundar seus conhecimentos e garantir uma excelente preparação para o vestibular!');
+
+INSERT INTO video_aulas (titulo_video_aula, texto_video_aula, img_video_aula) VALUES 
+('Professor Luis', 'O Professor Luis, da rede SESI Valinhos 299, foi peça-chave na criação de uma série de videoaulas de Sociologia, trazendo sua experiência e dedicação para tornar o conteúdo mais acessível e interessante. Abordando temas essenciais da Sociologia de forma clara e envolvente, sempre buscando conectar a teoria com situações do dia a dia. Com esse projeto, os alunos têm a oportunidade de aprender no próprio ritmo e revisitar as aulas sempre que quiserem, tornando o estudo da Sociologia ainda mais próximo e aplicável à realidade deles.', 'https://site-sociologia.vercel.app/img/luiz-professor-foto.png');
 
 

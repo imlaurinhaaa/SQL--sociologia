@@ -26,7 +26,7 @@ INSERT INTO carreiras (titulo_carreira, texto_carreira, img_carreira) VALUES
 -- CRIAÇÃO DA TABELA 'principais_topicos'
 
 CREATE TABLE principais_topicos(
-    id_principais_topicos SERIAL PRIMARY KEY,
+    id_principal_topico SERIAL PRIMARY KEY,
     id_autor INT,
     topico VARCHAR(150),
     titulo_principais_topicos VARCHAR(150),

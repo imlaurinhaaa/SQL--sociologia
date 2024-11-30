@@ -89,4 +89,4 @@ VALUES
 -- Criação do relacionamento entre autores e principais tópicos
 SELECT a.nome_autor, a.sessao_trabalhada, p.id_principais_topicos, p.titulo_principais_topicos, p.texto_principais_topicos, p.img_principais_topicos
 FROM autores a
-JOIN principais_topicos p ON p.id_principais_topicos = p.id_principais_topicos;
+JOIN principais_topicos p ON p.id_principal_topico = p.id_principal_topico;
