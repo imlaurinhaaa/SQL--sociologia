@@ -87,6 +87,16 @@ VALUES
 
 
 -- Criação do relacionamento entre autores e principais tópicos
-SELECT a.nome_autor, a.sessao_trabalhada, p.id_principais_topicos, p.titulo_principais_topicos, p.texto_principais_topicos, p.img_principais_topicos
+SELECT a.nome_autor, a.sessao_trabalhada, p.titulo_principais_topicos, p.texto_principais_topicos, p.img_principais_topicos
 FROM autores a
 JOIN principais_topicos p ON p.id_principal_topico = p.id_principal_topico;
+
+-- Criação do relacionamento entre autores e video aulas
+SELECT a.nome_autor, a.sessao_trabalhada, v.titulo_video_aula, v.texto_video_aula, v.img_video_aula, v.link_video_aula
+FROM autores a
+JOIN video_aulas v ON v.id_video_aula = v.id_video_aula;
+
+-- Criação do relacionamento entre autores e noticias
+SELECT a.nome_autor, a.sessao_trabalhada, n.titulo_noticia, n.texto_noticia, n.img_noticia
+FROM autores a
+JOIN noticias n ON n.id_noticia = n.id_noticia;

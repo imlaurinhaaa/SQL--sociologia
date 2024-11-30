@@ -57,7 +57,7 @@ id_video_aula SERIAL PRIMARY KEY
 titulo_video_aula VARCHAR(150)
 texto_video_aula TEXT
 img_video_aula VARCHAR (300)
-link_aula VARCHAR (300) NOT NULL
+link_video_aula VARCHAR (300) NOT NULL
 fk_autor
 
 ![DER](<DER- Banco de Dados Sociologia.jpeg>)
