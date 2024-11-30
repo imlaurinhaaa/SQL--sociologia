@@ -1,36 +1,36 @@
 --tabelas autores
 
-    CREATE TABLE autor (
-        id SERIAL PRIMARY KEY,
+    CREATE TABLE autores (
+        id_autor SERIAL PRIMARY KEY,
         nome_autor VARCHAR(200) NOT NULL,
         sessao_trabalhada TEXT NOT NULL
     );
 
-INSERT INTO autor (nome_autor, sessao_trabalhada) VALUES 
-('Bruna', 'Teorias Sociológicas: Principais Tópicos'),
-('Bruna', 'Sociedade Contemporânea: Principais Tópicos'),
-('Bruna', 'Oque é sociologia: Video-aula'),
-('Bruna', 'Temas de Vestibular:Video-Aula'),
-('Bruna', 'Dicas de vestibular baseado em filmes: Video-Aula'),
+INSERT INTO autores (nome_autor, sessao_trabalhada) VALUES 
+('Bruna', 'Principais Tópicos: Teorias Sociológicas'),
+('Bruna', 'Principais Tópicos: Sociedade Contemporânea'),
+('Bruna', 'Video-aula: O que é sociologia'),
+('Bruna', 'Video-Aula: Temas de Vestibular'),
+('Bruna', 'Video-Aula: Dicas de vestibular baseado em filmes'),
 ('Bruna', 'Principais matérias: Cultura e sociedade'),
 ('Bruna', 'Principais matérias: Estado e cidadania'),
 ('Bruna', 'Principais matérias: Movimentos sociais'),
 ('Bruna', 'Principais matérias: Sociologia brasileira'),
 ('Bruna', 'Principais matérias: Sociologia Do trabalho'),
-('Laura', 'Cidadania: Principais Tópicos'),
-('Laura', 'Politica: Principais Tópicos'),
-('Laura', 'Revolução: Principais Tópicos'),
-('Laura', 'História da sociologia: Video-aula'),
-('Laura', 'Entrevista com professor: Video-aula'),
+('Laura', 'Principais Tópicos: Cidadania'),
+('Laura', 'Principais Tópicos: Politica'),
+('Laura', 'Principais Tópicos: Revolução'),
+('Laura', 'Video-aula: História da sociologia'),
+('Laura', 'Video-aula: Entrevista com professor'),
 ('Laura', 'Principais Sociólogos: Emile Durkheim'),
 ('Laura', 'Principais Sociólogos: Auguste Comte'),
 ('Laura', 'Principais Sociólogos: Karl Marx'),
 ('Laura', 'Principais Sociólogos: Max Weber'),
 ('Laura', 'Principais Sociólogos: Pierre Bourdieu'),
-('Evelyn', 'Cultura: Principais Tópicos'),
+('Evelyn', 'Principais Tópicos: Cultura'),
 ('Evelyn', 'Movimentos Sociais: Principais Tópicos'),
 ('Evelyn', 'Movimentos Sociais: Inclusão e Visibilidade LGBTQIA+'),
-('Evelyn', 'Movimentos Sociais: feminismo e igualdade de genero'),
+('Evelyn', 'Movimentos Sociais: feminismo e igualdade de gênero'),
 ('Evelyn', 'Movimentos Sociais: Racismo Estrutural'),
 ('Evelyn', 'Movimentos Sociais: Povos Indígenas e Resistencia Cultural'),
 ('Evelyn', 'Movimentos Sociais: Saúde Mental na era digital');
