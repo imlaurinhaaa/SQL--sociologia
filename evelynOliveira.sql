@@ -394,7 +394,7 @@ VALUES
      /*Secundarios LGBTQIA+ Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        45,
         'A LUTA PELA INCLUSÃO',
         'No cenário atual, a inclusão e o respeito à diversidade LGBTQIA+ tornaram-se evidentes e amplamente debatidos. Esse desenvolvimento pode ser entendido por fatores sociológicos, como a visibilidade e a aceitação de uma comunidade diversa, que mudaram completamente a estrutura de normas e processos de socialização. Desde então, conceitos como identidade de gênero e orientação sexual têm uma abordagem mais abrangente e menos normativa.
 
@@ -404,7 +404,7 @@ VALUES
     /*Secundários LGBTQIA+ Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        45,
         'DESAFIOS DA INCLUSÃO LGBTQIA+',
         'No entanto, há desafios evidentes e predominantes. Crimes de ódio e formas de heterossexismo são realidades presentes, especialmente em áreas onde a diversidade sexual é vista como uma norma social distorcida e rara. Sociologicamente, esses conflitos dizem respeito à resistência ao que chamamos de "mudança social". Isso pode ser exemplificado em qualquer norma tradicional, onde a quebra dessas regras é vista como perturbadora e, portanto, discretamente hostil por grupos mais conservadores.
 
@@ -414,7 +414,7 @@ VALUES
     /*Secundários Feminismo e Igualdade de Gênero Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        46,
         'HISTÓRIA DO FEMINISMO',
         'A teoria feminista, amplamente discutida por sociólogas e estudiosas, argumenta que o gênero é uma construção social. Ou seja, as ideias de "feminino" e "masculino" foram historicamente moldadas por normas que atribuíram às mulheres papéis secundários. De acordo com essa perspectiva, o patriarcado não se limita apenas ao âmbito familiar, mas permeia instituições como a economia, a educação e o sistema jurídico, influenciando as relações sociais e de poder.
 
@@ -424,7 +424,7 @@ VALUES
     /*Secundários Feminismo e Igualdade de Gênero Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        46,
         'MOVIMENTO FEMINISTA',
         'Os movimentos feministas contemporâneos também enfrentam novas questões, como o debate sobre interseccionalidade. Esse conceito, desenvolvido por teóricas como Kimberlé Crenshaw, sugere que a discriminação de gênero não ocorre de forma isolada, mas interage com outras formas de opressão, como raça, classe e orientação sexual. Esse entendimento amplia o foco do feminismo, abordando as múltiplas formas de marginalização e reforçando a importância de uma luta inclusiva.
 
@@ -434,7 +434,7 @@ VALUES
     /*Secundários Racismo Estrutural Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        47,
         'A PERSISTÊNCIA DA DISCRIMINAÇÃO RACIAL',
         'O conceito de "racismo estrutural" é crucial para compreender a presença da discriminação racial nas estruturas básicas da sociedade, desde o sistema econômico até o sistema judicial e educacional. A teoria sociológica sugere que o racismo estrutural resulta em prejuízos para essas comunidades, como a representação reduzida em posições de liderança e a segregação em áreas de menor renda.
 
@@ -444,7 +444,7 @@ VALUES
     /*Secundários Racismo Estrutural Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        47,
         'LUTA CONTRA O RACISMO: REFORMAS E EDUCAÇÃO',
         'Apesar de o movimento pelos direitos civis e outros progressos terem provocado transformações notáveis, o racismo estrutural continua a existir, frequentemente de maneira silenciosa. Pesquisas apontam que a discriminação se manifesta em processos de seleção no mercado de trabalho, nas taxas de encarceramento e até mesmo no sistema de saúde, onde existem disparidades no tratamento dispensado a pacientes negros e brancos. Do ponto de vista sociológico, essas informações sugerem que o racismo não é apenas uma questão individual, mas um padrão coletivo que demanda alterações significativas nas instituições.
 
@@ -454,7 +454,7 @@ VALUES
     /*Secundários Povos Indígenas e Resistência Cultural Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        48,
         'COLONIALISMO E RESISTÊNCIA INDÍGENAS',
         'A teoria sociológica sobre colonialismo e pós-colonialismo auxilia na compreensão de como a colonização e a expansão das fronteiras econômicas afetaram as populações indígenas. Essas ações não apenas ocuparam seus territórios, mas também alteraram significativamente sua estrutura social, tradições e métodos de sobrevivência. Segundo essa visão, a marginalização persiste até os dias atuais, refletindo-se em disparidades sociais, econômicas e políticas. Numerosos povos indígenas ainda residem em condições de pobreza e lutam para preservar suas tradições e línguas.
 
@@ -464,7 +464,7 @@ VALUES
     /*Secundários Povos Indígenas e Resistência Cultural Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        48,
         'A LUTA PELA TERRA E PELA CULTURA',
         'Outro aspecto crucial para os indígenas é a luta pela demarcação de terras, já que o território não é apenas um local físico, mas também um espaço sagrado, essencial para suas práticas culturais e espirituais. Sob a perspectiva sociológica, o território desempenha um papel fundamental na formação da identidade coletiva e da autonomia, possibilitando que essas comunidades vivam de acordo com suas próprias tradições e normas. Contudo, a expansão do agronegócio, da mineração e de outros setores industriais exerce uma pressão contínua sobre essas áreas, gerando conflitos acirrados e deslocamentos de comunidades.
 
@@ -474,7 +474,7 @@ VALUES
     /*Secundários Saúde Mental na era Digital Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        49,
         'REDES SOCIAIS E ISOLAMENTO SOCIAL',
         'O uso excessivo das redes sociais, de acordo com estudos recentes, leva a altos níveis de ansiedade, depressão e solidão entre os jovens. Em conexão com esses dados, o conceito de "comunidade virtual" é frequentemente invocado. Isso se refere ao fato de que, por um lado, as redes sociais criam a ilusão de uma comunicação sem barreiras, enquanto, por outro lado, as pessoas se comparam umas às outras. Como resultado, elas se sentem obrigadas a demonstrar abertamente seu sucesso e suas vidas incríveis, o que aumenta a insatisfação consigo mesmas e diminui a autoestima.
 
@@ -484,7 +484,7 @@ VALUES
     /*Secundários Saúde Mental na era Digital Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        49,
         'EDUCAÇÃO DIGITAL E PROTEÇÃO ONLINE',
         'Além disso, o fenômeno denominado "ciberbullying" representa um desafio significativo para a saúde mental. As agressões virtuais podem ser igualmente devastadoras, prejudicando a vida de jovens e adultos. As mídias sociais, que deveriam ser um espaço de apoio e comunicação, frequentemente se transformam em ambientes de hostilidade e isolamento. A sociedade precisa adotar medidas mais rigorosas para proteger seus membros e proporcionar um ambiente virtual mais seguro.
 
