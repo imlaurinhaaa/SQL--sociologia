@@ -62,27 +62,21 @@ SELECT
     *
 FROM
     simulados;
-
 /*Fim tabela simulados*/
+
 /*Criação da tabela noticias*/
-CREATE TABLE
-    noticias (
-        id_noticia SERIAL PRIMARY KEY,
-        id_autor INT NOT NULL,
-        titulo_primario VARCHAR(150) NOT NULL,
-        descricao_noticia TEXT NOT NULL,
+CREATE TABLE noticias_carrosel(
+        id_noticia_carrosel SERIAL PRIMARY KEY,
+        id_autor INT,
+        titulo_primario VARCHAR(150),
+        descricao_noticia TEXT,
         img_primaria VARCHAR(300),
-        titulo_secundario VARCHAR(150),
-        subtitulo_secundario VARCHAR(150),
-        texto_secundario TEXT,
-        img_secundario VARCHAR(300),
     CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autores(id_autor)
     );
 
 /*Inserção de dados na tabela de noticias*/
 INSERT INTO
-    noticias (
-        id_noticia,
+    noticias_carrosel (
         id_autor,
         titulo_primario,
         descricao_noticia,
@@ -90,108 +84,121 @@ INSERT INTO
     )
 VALUES
     (
-        'id_autores',
+        '45',
         'Inclusão e Visibilidade LBTQIA +',
         'Uma análise dos desafios enfrentados por essa comunidade e a importância da visibilidade para a inclusão social.',
         'https://site-sociologia.vercel.app/img2/parada-lgbt-1.jpg'
     ),
     (
-        'id_autores',
+        '46',
         'Feminismo e Igualdade de Gênero',
         'Explorando as lutas históricas e contemporâneas pela equidade de direitos entre gêneros.',
         'https://site-sociologia.vercel.app/img2/movimentoFeminista.jpeg'
     ),
     (
-        'id_autores',
+        '47',
         'Racismo Estrutural',
         'Uma análise das raízes históricas e sociais da desigualdade racial e como ela se manifesta nas estruturas da sociedade.',
         'https://site-sociologia.vercel.app/img2/movimentoNegro.jpeg'
     ),
     (
-        'id_autores',
+        '48',
         'Povos Indígenas e Resistência Cultural',
         'Uma abordagem sobre a preservação das culturas indígenas e as lutas pela valorização e reconhecimento de suas identidades.',
         'https://site-sociologia.vercel.app/img2/indigenasMovimento.jpg'
     ),
     (
-        'id_autores',
+        '49',
         'Saúde Mental na Era Digital',
         'Analisando o impacto das novas tecnologias e redes sociais na saúde mental e nas relações sociais.',
         'https://site-sociologia.vercel.app/img2/movimentoSaude%20Mental.jpeg'
     ),
     (
-        'id_autores',
+        '38',
         'Émile Durkheim',
         'Investigando os fundamentos da sociologia moderna e a importância das relações sociais segundo Durkheim.',
         'https://site-sociologia.vercel.app/img2/emile-durkheim.jpeg'
     ),
     (
-        'id_autores',
+        '39',
         'Auguste Comte',
         'Conheça a visão positivista de Comte e sua influência no desenvolvimento da sociologia como ciência.',
         'https://site-sociologia.vercel.app/img2/auguste-comte.jpeg'
     ),
     (
-        'id_autores',
+        '40',
         'Karl Marx',
         'Explorando os impactos das teorias marxistas na sociedade e na política, do passado ao presente.',
         'https://site-sociologia.vercel.app/img2/karl-marx-.jpg'
     ),
     (
-        'id_autores',
+        '41',
         'Max Weber',
         'Entendendo as contribuições de Weber sobre a ética protestante, burocracia e as bases da sociedade moderna.',
         'https://site-sociologia.vercel.app/img2/max-weber.jpeg'
     ),
     (
-        'id_autores',
+        '42',
         'Pierre Bourdieu',
         'Explorando os conceitos de capital cultural, habitus e poder simbólico na obra de Bourdieu e suas implicações sociais.',
         'https://site-sociologia.vercel.app/img2/pierre-bourdieu.jpg'
     ),
     (
-        'id_autores',
+        '29',
         'Estado e Cidadania',
         'Explorando o papel do Estado e a participação cidadã na construção das relações de poder.',
         'https://site-sociologia.vercel.app/img2/cidadania.jpeg'
     ),
     (
-        'id_autores',
+        '28',
         'Estado e Cidadania',
         'Explorando o papel do Estado e a participação cidadã na construção das relações de poder.',
         'https://site-sociologia.vercel.app/img2/cidadania.jpeg'
     ),
     (
-        'id_autores',
+        '30',
         'Movimentos Sociais',
         'Uma visão sobre a mobilização coletiva, identidade e transformação dentro dos movimentos sociais.',
         'https://site-sociologia.vercel.app/img2//movimentos.jpg'
     ),
     (
-        'id_autores',
+        '31',
         'Sociologia Brasileira',
         'Uma visão sobre o desenvolvimento da sociologia no Brasil e seu papel na análise da nossa sociedade e cultura.',
         'https://site-sociologia.vercel.app/img2/brasil.jpeg'
     ),
     (
-        'id_autores',
+        '32',
         'Sociologia do Trabalho',
         'Examinando as relações de trabalho e suas transformações ao longo do tempo, desde a industrialização até a era digital.',
         'https://site-sociologia.vercel.app/img/sociologiaTrabalho.png'
     );
 
+CREATE TABLE noticias (
+        id_noticia SERIAL PRIMARY KEY,
+        id_autor INT,
+        id_noticia_carrosel INT,
+        titulo_noticia VARCHAR(150),
+        subtitulo_noticia VARCHAR(150),
+        texto_noticia TEXT,
+        img_noticia VARCHAR(300),
+        CONSTRAINT fk_noticia_carrosel FOREIGN KEY (id_noticia_carrosel) REFERENCES noticias_carrosel(id_noticia_carrosel),
+        CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autores(id_autor)
+)
+
 INSERT INTO noticias (
-        id_noticia,
+        id_noticia_carrosel,
         id_autor,
-        titulo_secundario,
-        subtitulo_secundario,
-        texto_secundario,
-        img_secundario
-    )
+        titulo_noticia,
+        subtitulo_noticia,
+        texto_noticia,
+        img_noticia
+    );
+
 VALUES
      /*Introdução LGBTQIA+*/
     (
-        'id_noticias',
+        'id_noticias_carrosel',
         'id_autores',
         'INCLUSÃO E VISIBILIDADE LGBTQIA+',
         'Uma perspectiva sociológica',
