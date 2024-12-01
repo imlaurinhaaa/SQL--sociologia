@@ -84,91 +84,91 @@ INSERT INTO
     )
 VALUES
     (
-        '45',
+        45,
         'Inclusão e Visibilidade LBTQIA +',
         'Uma análise dos desafios enfrentados por essa comunidade e a importância da visibilidade para a inclusão social.',
         'https://site-sociologia.vercel.app/img2/parada-lgbt-1.jpg'
     ),
     (
-        '46',
+        46,
         'Feminismo e Igualdade de Gênero',
         'Explorando as lutas históricas e contemporâneas pela equidade de direitos entre gêneros.',
         'https://site-sociologia.vercel.app/img2/movimentoFeminista.jpeg'
     ),
     (
-        '47',
+        47,
         'Racismo Estrutural',
         'Uma análise das raízes históricas e sociais da desigualdade racial e como ela se manifesta nas estruturas da sociedade.',
         'https://site-sociologia.vercel.app/img2/movimentoNegro.jpeg'
     ),
     (
-        '48',
+        48,
         'Povos Indígenas e Resistência Cultural',
         'Uma abordagem sobre a preservação das culturas indígenas e as lutas pela valorização e reconhecimento de suas identidades.',
         'https://site-sociologia.vercel.app/img2/indigenasMovimento.jpg'
     ),
     (
-        '49',
+        49,
         'Saúde Mental na Era Digital',
         'Analisando o impacto das novas tecnologias e redes sociais na saúde mental e nas relações sociais.',
         'https://site-sociologia.vercel.app/img2/movimentoSaude%20Mental.jpeg'
     ),
     (
-        '38',
+        38,
         'Émile Durkheim',
         'Investigando os fundamentos da sociologia moderna e a importância das relações sociais segundo Durkheim.',
         'https://site-sociologia.vercel.app/img2/emile-durkheim.jpeg'
     ),
     (
-        '39',
+        39,
         'Auguste Comte',
         'Conheça a visão positivista de Comte e sua influência no desenvolvimento da sociologia como ciência.',
         'https://site-sociologia.vercel.app/img2/auguste-comte.jpeg'
     ),
     (
-        '40',
+        40,
         'Karl Marx',
         'Explorando os impactos das teorias marxistas na sociedade e na política, do passado ao presente.',
         'https://site-sociologia.vercel.app/img2/karl-marx-.jpg'
     ),
     (
-        '41',
+        41,
         'Max Weber',
         'Entendendo as contribuições de Weber sobre a ética protestante, burocracia e as bases da sociedade moderna.',
         'https://site-sociologia.vercel.app/img2/max-weber.jpeg'
     ),
     (
-        '42',
+        42,
         'Pierre Bourdieu',
         'Explorando os conceitos de capital cultural, habitus e poder simbólico na obra de Bourdieu e suas implicações sociais.',
         'https://site-sociologia.vercel.app/img2/pierre-bourdieu.jpg'
     ),
     (
-        '29',
+        29,
         'Estado e Cidadania',
         'Explorando o papel do Estado e a participação cidadã na construção das relações de poder.',
         'https://site-sociologia.vercel.app/img2/cidadania.jpeg'
     ),
     (
-        '28',
+        28,
         'Estado e Cidadania',
         'Explorando o papel do Estado e a participação cidadã na construção das relações de poder.',
         'https://site-sociologia.vercel.app/img2/cidadania.jpeg'
     ),
     (
-        '30',
+        30,
         'Movimentos Sociais',
         'Uma visão sobre a mobilização coletiva, identidade e transformação dentro dos movimentos sociais.',
         'https://site-sociologia.vercel.app/img2//movimentos.jpg'
     ),
     (
-        '31',
+        31,
         'Sociologia Brasileira',
         'Uma visão sobre o desenvolvimento da sociologia no Brasil e seu papel na análise da nossa sociedade e cultura.',
         'https://site-sociologia.vercel.app/img2/brasil.jpeg'
     ),
     (
-        '32',
+        32,
         'Sociologia do Trabalho',
         'Examinando as relações de trabalho e suas transformações ao longo do tempo, desde a industrialização até a era digital.',
         'https://site-sociologia.vercel.app/img/sociologiaTrabalho.png'
@@ -199,7 +199,7 @@ VALUES
      /*Introdução LGBTQIA+*/
     (
         'id_noticias_carrosel',
-        'id_autores',
+        45,
         'INCLUSÃO E VISIBILIDADE LGBTQIA+',
         'Uma perspectiva sociológica',
         'Em outras palavras, a luta pela inclusão do LGBTQIA+ é a luta das principais mudanças sociais e de um novo estágio na aceitação da peculiaridade humana. Isso implica um novo estágio de liberdade, mas também um novo olhar sociológico que não valoriza mais a unidade, mas sim a diversidade, a força de desenvolvimento social.
@@ -210,7 +210,7 @@ VALUES
     /*Introdução Feminismo e Igualdade de Gênero*/
     (
         'id_noticias',
-        'id_autores',
+        46,
         'FEMINISMO E IGUALDADE DE GÊNERO',
         'Uma perspectiva sociológica',
         'Nas últimas décadas, o movimento feminista ganhou visibilidade e protagonismo ao redor do mundo, representando uma luta histórica pela igualdade de gênero e pelo fim da discriminação. Sociologicamente, o feminismo é compreendido como uma resposta à estrutura social patriarcal, que perpetua desigualdades e limita as oportunidades das mulheres em diversas esferas, incluindo o trabalho, a política e até a vida familiar.
@@ -221,7 +221,7 @@ VALUES
     /*Introdução Racismo Estrutural*/
     (
         'id_noticias',
-        'id_autores',
+        47,
         'RACISMO ESTRUTURAL',
         'Uma perspectiva sociológica sobre a desigualdade racial',
         'O racismo é um fenômeno social presente em várias sociedades ao redor do mundo, com origens profundamente arraigadas na estrutura social. De acordo com sociólogos, o racismo vai além de simples atitudes discriminatórias de indivíduos, constituindo um sistema de discriminação apoiado por normas, práticas e instituições sociais que prejudicam de maneira desproporcional indivíduos negros e outras minorias raciais.
@@ -232,7 +232,7 @@ VALUES
     /*Introdução Povos Indígenas*/
     (
         'id_noticias',
-        'id_autores',
+        48,
         'POVOS INDÍGENAS E RESISTÊNCIA CULTURAL',
         'Um olhar sociológico sobre direitos e desigualdades',
         'Em um contexto de urbanização acelerada e globalização, a situação dos povos indígenas tem sido amplamente debatida. Do ponto de vista sociológico, a luta desses povos ultrapassa a disputa por direitos territoriais, refletindo um embate entre culturas e valores. Ao longo da história, os povos indígenas foram submetidos à pressão da sociedade predominante, que frequentemente tenta assimilá-los, marginalizando suas culturas e modos de vida ancestrais.
@@ -243,7 +243,7 @@ VALUES
     /*Introdução Saúde Mental*/
     (
         'id_noticias',
-        'id_autores',
+        49,
         'SAÚDE MENTAL NA ERA DIGITAL',
         'Desafios e Implicações Sociológicas',
         'Recentemente, o crescente papel da vida digital e sua presença chamou a atenção para as questões relacionadas à saúde mental, especialmente entre os jovens. A possibilidade de se comunicar constantemente por meio das redes sociais, aplicativos de mensagens e dispositivos eletrônicos intensificou a discussão sobre o impacto da tecnologia na vida emocional e psicológica humana. Do ponto de vista sociológico, isso pode ser interpretado como mudanças nas interações sociais e nas normas culturais que afetam os padrões de vida moderna.
@@ -254,7 +254,7 @@ VALUES
     /*Introdução Émile Durkheim*/
     (
         'id_noticias',
-        'id_autores',
+        38,
         'ÉMILE DURKHEIM',
         'Émile Durkheim: O Pai da Sociologia Moderna e Seus Legados para o Estudo das Relações Sociais',
         'Émile Durkheim era conhecido pelos humanos como o pai da moderna sociologia, depois de decidir sobre a coesão social. Ele trouxe entendimento sobre essa teoria, dando origem a Escola Sociológica Francesa, ao lado de Karl Marx e Max Weber.
@@ -265,7 +265,7 @@ VALUES
     /*Introdução Auguste Comte*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'AUGUSTE COMTE',
         'Auguste Comte: Pai do Positivismo e da Sociologia',
         'Auguste Comte (1798-1857) foi um filósofo francês e o principal fundador do Positivismo, além de ser o primeiro a empregar o termo “sociologia” para a ciência que estuda a sociedade. Seu pensamento influenciou profundamente o desenvolvimento das ciências sociais e a organização social moderna.
@@ -276,7 +276,7 @@ VALUES
     /*Introdução Karl Marx*/
     (
         'id_noticias',
-        'id_autores',
+        40,
         'KARL MARX',
         'Karl Marx: O Fundador do Marxismo e Seus Impactos na História Social e Política',
         'Karl Marx (1818-1883), filósofo e revolucionário socialista alemão, deixou uma marca profunda na história ao estabelecer as bases da doutrina comunista. Suas ideias sobre o capitalismo e a luta de classes geraram o Marxismo, influenciando movimentos políticos, econômicos e sociais que moldaram o século XX.
@@ -287,7 +287,7 @@ VALUES
     /*Introdução Max Weber*/
     (
         'id_noticias',
-        'id_autores',
+        41,
         'MAX WEBER',
         'Max Weber: Pioneiro da Sociologia e da Ciência Social Moderna',
         'Max Weber (1864-1920) foi um influente sociólogo e economista alemão, cujas contribuições são reconhecidas por revolucionaram o campo das ciências sociais. Seus estudos sobre a relação entre religião e economia, bem como sua metodologia sociológica, estabeleceram bases importantes para a análise social contemporânea.
@@ -298,7 +298,7 @@ VALUES
     /*Introdução Pierre Bourdieu*/
     (
         'id_noticias',
-        'id_autores',
+        42,
         'PIERRE BOURDIEU',
         'Pierre Bourdieu: Intelectual Inovador da Sociologia e Etnologia',
         'Pierre Bourdieu (1930-2002) foi um renomado sociólogo e pensador francês que trouxe inovações significativas para a compreensão da Sociologia e da Etnologia no século XX. Com uma obra influente, Bourdieu ajudou a redefinir as maneiras como as práticas culturais e sociais são interpretadas e compreendidas.
@@ -309,7 +309,7 @@ VALUES
     /*Introdução Cultura e Sociedade*/
     (
         'id_noticias',
-        'id_autores',
+        28,
         'CULTURA E SOCIEDADE',
         'A QUESTÃO DA CULTURA',
         'Cultura e Etnocentrismo: Sociologia Adverte da Importância em Caso de Respeito de Diferenças Culturais Cultura é um conjunto de conhecimentos, tradições e comportamentos compartilhados por um povo. Esse conjunto é produzido em interação social dos membros de uma comunidade, atendendo às necessidades humanas e, portanto, formando padrões e comportamentos que conformam uma estrutura e organização sociais específicas.
@@ -328,7 +328,7 @@ VALUES
     /*Introdução Estado e Cidadania*/
     (
         'id_noticias',
-        'id_autores',
+        29,
         'ESTADO E CIDADANIA',
         'O ESTADO BRASILEIRO E CIDADANIA NO BRASIL',
         'Nas considerações finais, a cidadania, como o conjunto de direitos e deveres do cidadão, desempenha um papel vital na formação de uma sociedade justa e    inclusiva. Um exemplo proeminente de cidadania são os direitos do eleitor – em um país democrático, o voto é a oportunidade para que os cidadãos influenciam suas decisões políticas e determinam o futuro de seus países.
@@ -341,7 +341,7 @@ VALUES
     /*Introdução Movimentos Sociais*/
     (
         'id_noticias',
-        'id_autores',
+        30,
         'MOVIMENTOS SOCIAIS',
         'Feminismo e Questões de Gênero',
         'A renúncia a direitos políticos e sociais em um cenário de retrocessos políticos aumenta a
@@ -363,7 +363,7 @@ VALUES
     /*Introdução Sociologia Brasileira*/
     (
         'id_noticias',
-        'id_autores',
+        31,
         'SOCIOLOGIA BRASILEIRA',
         'MANIFESTAÇÕES CULTURAIS NO BRASIL',
         'As manifestações culturais são a expressão de um povo, de seus rituais e celebrações. Alguns exemplos de manifestações culturais do Brasil são:'
@@ -371,7 +371,7 @@ VALUES
     /*Introdução Sociologia do Trabalho*/
     (
         'id_noticias',
-        'id_autores',
+        32,
         'SOCIOLOGIA DO TRABALHO',
         'O que é Trabalho?',
         'O conceito de trabalho é formado por elemento teológico que teve influência no ocidente greco-romano-helenista chegando até os nossos dias. Como mostra o Livro do Gênesis (3, 17); depois de pecar o homem foi amaldiçoado, ficando condenado a extrair seu sustento do suor, do cansaço, do labor de seu trabalho: “comedores maledicta terra in opere tuo in laboribus comedes eam cunctis diebus vitae tuae”.
