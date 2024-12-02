@@ -115,7 +115,7 @@ VALUES
     ),
     (
         38,
-        'Émile Durkheim',
+        'émile Durkheim',
         'Investigando os fundamentos da sociologia moderna e a importância das relações sociais segundo Durkheim.',
         'https://site-sociologia.vercel.app/img2/emile-durkheim.jpeg'
     ),
@@ -255,9 +255,9 @@ VALUES
     (
         'id_noticias',
         38,
-        'ÉMILE DURKHEIM',
-        'Émile Durkheim: O Pai da Sociologia Moderna e Seus Legados para o Estudo das Relações Sociais',
-        'Émile Durkheim era conhecido pelos humanos como o pai da moderna sociologia, depois de decidir sobre a coesão social. Ele trouxe entendimento sobre essa teoria, dando origem a Escola Sociológica Francesa, ao lado de Karl Marx e Max Weber.
+        'éMILE DURKHEIM',
+        'émile Durkheim: O Pai da Sociologia Moderna e Seus Legados para o Estudo das Relações Sociais',
+        'émile Durkheim era conhecido pelos humanos como o pai da moderna sociologia, depois de decidir sobre a coesão social. Ele trouxe entendimento sobre essa teoria, dando origem a Escola Sociológica Francesa, ao lado de Karl Marx e Max Weber.
 
         “Quando as normas sociais desaparecem, somos incapazes de saber o que é possível e o que não é, e acabamos ficando perdidos.”',
         'https://site-sociologia.vercel.app/img/%C3%89mile_Durkheim.jpg'
@@ -478,7 +478,7 @@ VALUES
         'REDES SOCIAIS E ISOLAMENTO SOCIAL',
         'O uso excessivo das redes sociais, de acordo com estudos recentes, leva a altos níveis de ansiedade, depressão e solidão entre os jovens. Em conexão com esses dados, o conceito de "comunidade virtual" é frequentemente invocado. Isso se refere ao fato de que, por um lado, as redes sociais criam a ilusão de uma comunicação sem barreiras, enquanto, por outro lado, as pessoas se comparam umas às outras. Como resultado, elas se sentem obrigadas a demonstrar abertamente seu sucesso e suas vidas incríveis, o que aumenta a insatisfação consigo mesmas e diminui a autoestima.
 
-        A teoria da alienação social, proposta por pensadores como Karl Marx e Émile Durkheim, pode ajudar a explicar como a tecnologia pode aumentar a distância social entre as pessoas, em vez de aproximá-las. A quantidade de tempo que as pessoas passam interagindo pessoalmente diminuiu ao longo dos anos, e muitos jovens se sentem mais à vontade conversando com os outros por meio de telas do que pessoalmente, o que pode levar a um aumento do isolamento.',
+        A teoria da alienação social, proposta por pensadores como Karl Marx e émile Durkheim, pode ajudar a explicar como a tecnologia pode aumentar a distância social entre as pessoas, em vez de aproximá-las. A quantidade de tempo que as pessoas passam interagindo pessoalmente diminuiu ao longo dos anos, e muitos jovens se sentem mais à vontade conversando com os outros por meio de telas do que pessoalmente, o que pode levar a um aumento do isolamento.',
         'https://site-sociologia.vercel.app/img2/ajuda].jpg'
     ),
     /*Secundários Saúde Mental na era Digital Part-II*/
@@ -488,13 +488,13 @@ VALUES
         'EDUCAÇÃO DIGITAL E PROTEÇÃO ONLINE',
         'Além disso, o fenômeno denominado "ciberbullying" representa um desafio significativo para a saúde mental. As agressões virtuais podem ser igualmente devastadoras, prejudicando a vida de jovens e adultos. As mídias sociais, que deveriam ser um espaço de apoio e comunicação, frequentemente se transformam em ambientes de hostilidade e isolamento. A sociedade precisa adotar medidas mais rigorosas para proteger seus membros e proporcionar um ambiente virtual mais seguro.
 
-        Por outro lado, especialistas em saúde mental ressaltam a importância do ensino da educação digital e da alfabetização emocional. É necessário ensinar os jovens a navegar pelas complexidades da vida online de uma maneira saudável. Campanhas de conscientização sobre o uso responsável da tecnologia e a criação de espaços de apoio psicológico estão se tornando essenciais.',
+        Por outro lado, especialistas em saúde mental ressaltam a importância do ensino da educação digital e da alfabetização emocional. é necessário ensinar os jovens a navegar pelas complexidades da vida online de uma maneira saudável. Campanhas de conscientização sobre o uso responsável da tecnologia e a criação de espaços de apoio psicológico estão se tornando essenciais.',
         'https://site-sociologia.vercel.app/img2/ajuda2.jpg'
     ),
     /*Secundários Émile Durkheim Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        38,
         'INFÂNCIA E FORMAÇÃO ACADÊMICA',
         'Nascido na França, em pontos de 15 de abril de 1858, em Épinal, Lorena Durkheim era descendente de uma família judia e seria educado no judaísmo, a fim de seguir a carreira de seu pai e avô, ambos rabinos. Ele rejeitou esse ensinamento, porém, se inscrevendo-se na filosofia e, mais tarde, na sociologia.
 
@@ -504,7 +504,7 @@ VALUES
     /*Secundários Émile Durkheim Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        38,
         'CONTRIBUIÇÕES PIONEIRAS',
         'Durkheim explora traços significativos dos fenômenos sociais. Ele escreve a influente divisão do método de Divisão do Trabalho Social , em 1893, no qual reivindica que a industrialização desperta a perseguição ao indivíduo, a especialização extrema, e a desumanização.
 
@@ -514,7 +514,7 @@ VALUES
     /*Secundários Émile Durkheim Part-III*/
     (
         'id_noticias',
-        'id_autores',
+        38,
         'ESTUDO DO SUICÍDIO E RELIGIÃO',
         '“O Suicídio” é outra obra extremamente popular que busca provar socialmente que os fatores sociais direcionam as causas de autoextermínio, sendo qualquer uma das ações vista simplesmente como ações a serem medidas individualmente. Ele identificou três tipos do fenômeno: egoísta, anômico e altruísta.
 
@@ -524,15 +524,15 @@ VALUES
     /*Secundários Émile Durkheim Part-IV*/
     (
         'id_noticias',
-        'id_autores',
+        38,
         'LEGADO E FALECIMENTO',
         'Durkheim faleceu em Paris no dia 15 de novembro de 1917. Atualmente, ele está enterrado no cemitério de Montparnasse. O homem deixou um grande legado em ciência, ajudando a guiar a sociologia moderna e a estudar a quantificação das dinâmicas sociais, relações de trabalho e estrutura religiosa.'
     ),
     /*Secundários Émile Durkheim Part-V*/
     (
         'id_noticias',
-        'id_autores',
-        'OBRAS DE ÉMILE DURKHEIM',
+        38,
+        'OBRAS DE éMILE DURKHEIM',
         'Da Divisão do Trabalho Social, 1893
 
          As Regras do Método Sociológico, 1895
@@ -551,7 +551,7 @@ VALUES
     /*Secundários Auguste Comte Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'ORIGEM E FORMAÇÃO',
         'Isidoro Agostinho Maria Francisco Xavier Comte, nasceu a 19 de janeiro de 1798 em Montpellier, França. Comte, cujos pais eram católicos monarquistas, entrou na Escola Politécnica de Paris com apenas 16 anos; todavia, ainda jovem foi expulso da instituição por seu envolvimento em diferentes movimentos de oposição. Posteriormente, ocupou-se como professor particular e colaborador para jornais.',
         'https://site-sociologia.vercel.app/img2/comte.jpeg'
@@ -559,14 +559,14 @@ VALUES
     /*Secundários Auguste Comte Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'INFLUÊNCIA DE SAINT-SIMON',
         'Comte foi discípulo do filósofo Claude-Henri de Rouvroy, o Conde de Saint-Simon, que era um dos precursores do Socialismo Utópico. Saint-Simon influenciou Comte ao dizer que os fenômenos sociais também poderiam ser estudados da mesma forma que as ciências naturais e que o conhecimento adquirido deveria ser usado para o progresso moral e político da sociedade.',
         'https://site-sociologia.vercel.app/img2/comte.jpeg'),
     /*Secundários Auguste Comte Part-III*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'O POSITIVISMO E OS TRÊS ESTADOS DO CONHECIMENTO',
         'Comte desenvolveu o Positivismo como uma filosofia que visava reorganizar a sociedade por meio da ciência. Em sua obra "Curso de Filosofia Positiva", ele propôs a ideia de que o desenvolvimento do conhecimento humano passa por três estágios:
 
@@ -580,14 +580,14 @@ VALUES
     /*Secundários Auguste Comte Part-IV*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'SOCIOLOGIA: A FÍSICA SOCIAL',
         'Comte foi a primeira pessoa a identificar a disciplina como “Sociologia” ou “Física Social” e argumentou que deveria ser tratada com as técnicas da ciência, incluindo observação e experimentação. Com a Sociologia, entre outras disciplinas convencionais, isto é, Matemática, Física e Biologia, será a ciência que fechará o sistema científico introduzido e nos permitirá ordenar e entender a sociedade.'
     ),
     /*Secundários Auguste Comte Part-V*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'A RELIGIÃO DA HUMANIDADE',
         'Em 1847, divulgou-se a “Religião da Humanidade”, em que se exaltavam os valores humanistas e que pretendia substituir as religiões tradicionais por uma religião baseada no amor e moralidade científica. Estruturou a própria religião através de ritos, sacerdócio e imposição de normas rígidas. Esse movimento foi levado por diversos países, mas especial influência exerceu em países como o Brasil, em que o lema presente na bandeira “Ordem e Progresso” reflete um lema de Comte:“Amor como princípio, ordem como base e progresso como objetivo”.',
         'http://127.0.0.1:5502/img2/cidade-Industrial.png'
@@ -595,7 +595,7 @@ VALUES
     /*Secundários Auguste Comte Part-VI*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'VIDA PESSOAL E ÚLTIMOS ANOS',
         'Em 1825, casou-se com Caroline Massin, mas o relacionamento foi turbulento e ele experimentou uma depressão profunda que o levou a uma tentativa de suicídio em 1827. Durante a sua vida, em 1844, conheceu a escritora Clotilde de Vaux, com quem mantinha uma relação de amizade intensa. A morte desta mulher fez com que o pensador definisse completamente a Religião da Humanidade como a única possibilidade de ação. Auguste Comte morreu em Paris em 5 de setembro de 1857, no entanto, ele deixou um legado importante que formou o pensamento sociológico e positivista no mundo.',
         'http://127.0.0.1:5502/img2/positivismo.png'
@@ -603,7 +603,7 @@ VALUES
     /*Secundários Auguste Comte Part-VII*/
     (
         'id_noticias',
-        'id_autores',
+        39,
         'OBRAS DE AUGUSTE COMTE',
         'Plano de Trabalho Científico para Reorganizar a Sociedade, 1822
 
@@ -627,7 +627,7 @@ VALUES
     /*Secundários Karl Marx Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        40,
         'ORIGENS E FORMAÇÃO',
         'Karl Heinrich Marx nasceu no dia 5 de maio de 1818, em Trier, na Renânia. Marx foi criado em uma família judaica que mais tarde se converteu ao cristianismo luterano. Ele foi levado a matricular-se na Universidade de Bonn, onde se envolveu com os movimentos políticos dos estudantes. Em seguida foi para Berlim, onde foi profundamente influenciado pelo pensamento de Hegel e se envolveu com os “hegelianos de esquerda”, que defendiam a transformação da sociedade alemã.
         Marx obteve o título de doutor em Filosofia em 1841, mas foi impedido de lecionar pelo governo prussiano, dada sua posição revolucionária. Year de lá começou a colaborar com publicações revolucionárias, como a Gazeta Renana, na qual conheceu seu futuro parceiro intelectual, Friedrich Engels.',
@@ -637,14 +637,14 @@ VALUES
     /*Secundários Karl Marx Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        40,
         'A PARCERIA COM ENGELS E O MANIFESTO COMUNISTA',
         'A união de Marx e Engels revelou-se não apenas duradoura, mas também revolucionária. Juntos, eles admiraram “A Sagrada Família” e “A Ideologia Alemã”, livros onde dão a crítica do capitalismo e a necessidade de uma revolução proletária. Em 1848, a convite dos justos, Marx e Engels publicou o Manifesto Comunista, no qual, respectivamente, a síntese do conceito de luta de classes e da teoria do materialismo histórico soou, com um chamado aos proletários de todo o mundo: “Proletários de todo o mundo, uni-vos”.'
     ),
     /*Secundários Karl Marx Part-III*/
     (
         'id_noticias',
-        'id_autores',
+        40,
         'EXÍLIO EM LONDRES E A OBRA "O CAPITAL"',
         'Enfrentando a perseguição política na Bélgica, França e Alemanha, Marx fixou-se em Londres em 1849. Com enormes dificuldades financeiras, sustentadas em grande parte pela ajuda de Engels, Marx se dedicou à obra-prima, O Capital. O primeiro volume da obra foi publicado em 1867 e apresentou uma análise científica do capitalismo e da exploração do trabalho. Marx acrescentou a noção de mais-valia e criticou veementemente a acumulação de riqueza nas mãos dos capitalistas.'
         'http://127.0.0.1:5502/img2/o-capital.jpg'
@@ -652,7 +652,7 @@ VALUES
     /*Secundários Karl Marx Part-IV*/
     (
         'id_noticias',
-        'id_autores',
+        40,
         'ÚLTIMOS ANOS E LEGADO',
         'Seus últimos anos de vida Marx passou em Londres, onde, embora tivesse “deixado” de ser um ativo agitador político, continuava atento a tais eventos como a Comuna de Paris em 1871 e foi um dos fundadores do Partido Social-Democrata Alemão em 1875. Depois que a esposa Jenny e dois dos filhos morreram, a saúde de Marx tornou-se bastante frágil. Em 14 de março de 1883, ele faleceu em Londres.
 
@@ -661,7 +661,7 @@ VALUES
     /*Secundários Karl Marx Part-V*/
     (
         'id_noticias',
-        'id_autores',
+        40,
         'OBRAS DE KARL MARX',
         'O Manifesto Comunista (1848) (Marx e Engels)
 
@@ -675,7 +675,7 @@ VALUES
     /*Secundários Max Weber Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        41,
         'ORIGENS E FORMAÇÃO ACADÊMICA',
         'Max Weber (1864-1920) foi um influente sociólogo e economista alemão, cujas contribuições são reconhecidas por revolucionaram o campo das ciências sociais. Seus estudos sobre a relação entre religião e economia, bem como sua metodologia sociológica, estabeleceram bases importantes para a análise social contemporânea.
 
@@ -685,7 +685,7 @@ VALUES
     /*Secundários Max Weber Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        41,
         'CARREIRA E CONTRIBUIÇÕES INTELECTUAIS',
         'Por essa época, o interesse de Weber pelas ciências sociais já era mais do que evidente, resultado de suas pesquisas relativas à história agrária romana e ao desenvolvimento de sociedades comerciais medievais que o levaram a ser nomeado professor de Economia Política.
 
@@ -696,7 +696,7 @@ VALUES
     /*Secundários Max Weber Part-III*/
     (
         'id_noticias',
-        'id_autores',
+        41,
         'METODOLOGIA E A TEORIA DOS TIPOS IDEAIS',
         'Weber ficou famoso em sociologia por sua metodologia, especialmente o conceito de tipos ideais. Esses modelos analíticos tornam mais fácil a compreensão e a comparação de fenômenos sociais, mas não descrevem a realidade da forma mais precisa possível. No entanto, ele foi um fator preponderante no desenvolvimento de uma base teórica sólida para a sociologia moderna e reforçou a noção de que a intencionalidade e as ações são fundamentais a serem levadas em conta nas ciências sociais.',
         'http://127.0.0.1:5502/img2/livro-weber.jpeg'
@@ -704,14 +704,14 @@ VALUES
     /*Secundários Max Weber Part-VI*/
     (
         'id_noticias',
-        'id_autores',
+        41,
         'IDEAIS E CONFLITOS COM O MARXISMO',
         'Ao se focar na racionalidade e na burocracia como fatores cruciais no desenvolvimento da civilização ocidental, Weber era significativamente discrepante dos marxistas que via a luta de classes como a principal força motriz da história. O livro Economia e Sociedade de Weber, que foi publicado de maneira póstuma, olhou para a interação entre cultura, economia e sociedade e sintetizou as ideias de Weber sobre racionalização e burocracia, temas que são marcantes da sociedade moderna.'
     ),
     /*Secundários Max Weber Part-VII*/
     (
         'id_noticias',
-        'id_autores',
+        41,
         'ATUAÇÃO POLÍTICA E LEGADO',
         'Questionando o Nazismo antes que ele fosse definido como tal, a Alemanha foi duramente criticada por Weber. Além disso, ele esteve presente na Conferência de Paz de Paris e auxiliou o Conselho Constitucional em sua tentativa de escrever a Constituição de Weimar, em 1919, por sua vez, apoia o parlamentarismo e o liberalismo da democracia.
 
@@ -721,7 +721,7 @@ VALUES
     /*Secundários Max Weber Part-VIII*/
     (
         'id_noticias',
-        'id_autores',  
+        41,  
         'OBRAS DE MAX WEBER',
         'A ética protestante e o espírito do capitalismo (1904)
 
@@ -734,7 +734,7 @@ VALUES
     /*Secundários Pierre Bourdieu Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        42,
         'FORMAÇÃO E PRIMEIROS TRABALHOS',
         'Pierre Félix Bourdieu nasceu em Denguin, França, em 1º de agosto de 1930. Iniciou sua educação em sua cidade natal antes de se mudar para Paris, onde, em 1954, se graduou em Economia Política e Sociologia pela Universidade Sorbonne. Em 1960, ele obteve seus primeiros exercícios de diretor de ensino na Universidade de Paris-Sorbonne, onde ele foi professor de Sociologia e de Política. Em 1964, ele se tornou professor de Sociologia na Universidade de Paris-Diderot, e em 1970, de Política na Universidade de Paris-Sorbonne.',
         'https://site-sociologia.vercel.app/img2/pierre.jpeg'
@@ -742,7 +742,7 @@ VALUES
     /*Secundários Pierre Bourdieu Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        42,
         'ASCENSÃO ACADÊMICA E PESQUISA',
         'Durante a sua viagem, Bourdieu tornou-se assistente do filósofo e sociólogo Raymond Aron na Faculdade de Letras de Paris, ao regressar à França, em Paris, no ano seguinte. Bourdieu tornou-se secretário-geral do Centro Europeu de Sociologia depois de 1962. Durante as décadas de 1960 e 1970, a investigação de Bourdieu como etnólogo daria ao campo da sociologia contribuições vastas e inovadoras. As investigações de Bourdieu nas vidas culturais, lazeres e estilos econômicos e alimentares das classes na Europa, em particular, em França geraram algumas das obras fundamentais da sociologia moderna, como O Gosto ou A Distinção.
 
@@ -752,7 +752,7 @@ VALUES
     /*Secundários Pierre Bourdieu Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        42,
         'IDEIAS E CONTRIBUIÇÕES',
         'Bourdieu sugeriu conceitos revolucionários como "capital cultural", "habitus" e "campo social", que são atualmente amplamente aplicados para compreender a dinâmica das interações sociais. Ele defendia que as preferências e hábitos culturais da burguesia, das classes médias e da classe trabalhadora eram reflexos de suas vivências e posições sociais. Esses princípios contribuíram para evidenciar que a sociedade é formada por relações de poder, não somente no âmbito político e econômico, mas também no cultural.',
         'https://site-sociologia.vercel.app/img2/livro-pierre.jpg'
@@ -760,14 +760,14 @@ VALUES
     /*Secundários Pierre Bourdieu Part-VI*/
     (
         'id_noticias',
-        'id_autores',
+        42,
         'CARREIRA E LEGADO ACADÊMICO',
         'Bourdieu, reconhecido em todo o mundo, ministrou aulas em universidades de renome, como Harvard, Chicago e o Instituto Max Planck em Berlim. No ano de 1981, assumiu a cadeira de Sociologia no Collège de France. Em sua primeira aula, propôs uma crítica inovadora à formação dos sociólogos, conhecida como "Sociologia da Sociologia". Bourdieu se estabeleceu como uma autoridade em Antropologia e Sociologia, investigando tópicos como educação, mídia, política, arte e linguística.',
     ),
     /*Secundários Pierre Bourdieu Part-VII*/
     (
         'id_noticias',
-        'id_autores',
+        42,
         'RECONHECIMENTO E ÚLTIMOS ANOS',
         'Durante sua trajetória profissional, foi agraciado com títulos de "Doutor Honoris Causa" por universidades de prestígio, como a Universidade Livre de Berlim, a Universidade Johann Wolfgang-Goethe de Frankfurt e a Universidade de Atenas. Pierre Bourdieu, reconhecido como um dos intelectuais mais influentes de sua época, faleceu em Paris em 23 de janeiro de 2002, deixando um legado que continua a influenciar as pesquisas em ciências sociais até os dias atuais.',
         'https://site-sociologia.vercel.app/img2/pierre2.jpg'
@@ -775,7 +775,7 @@ VALUES
     /*Secundários Pierre Bourdieu Part-VIII*/
     (
         'id_noticias',
-        'id_autores',
+        42,
         'OBRAS DE PIERRE BOURDIEU',
         'A Distinção (1984)
 
@@ -795,7 +795,7 @@ VALUES
     /*Secundário Cultura e Sociedade Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        28,
         'INDÚSTRIA CULTURAL',
         'A Indústria Cultural é um mecanismo comercial que fomenta o consumo massificado de bens artísticos e culturais em geral. "Esse mecanismo é administrado por grupos de empresários, que se dividem na organização das cadeias produtivas do entretenimento e da diversão, da arte e da informação em geral."
 
@@ -809,7 +809,7 @@ VALUES
     /*Secundário Cultura e Sociedade Part-II*/
     (
         'id_noticias',
-        'id_autores',
+        28,
         'ETNOCENTRISMO E PRECONCEITO',
         'O etnocentrismo é uma visão preconceituosa e unilateral formada sobre outros povos, culturas, religiões e etnias. Esse preconceito se refere ao hábito de julgar inferior uma cultura diferente da sua própria cultura, considerando ilógico tudo que dela deriva e considerando a sua como a única correta.z
 
@@ -823,7 +823,7 @@ VALUES
     /*Secundário Estado e Cidadania Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        29,
         'SOCIOLOGIA BRASILEIRA',
         'Das influências marxistas à compreensão da realidade social brasileira no início do século XX, a sociologia brasileira, como em toda a América Latina, foi influenciada pelo pensamento marxista. Para jovens cientistas, as teorias de Marx foram um auxiliar inestimável no estudo das relações trabalhistas e da desigualdade, que é constituinte da estrutura social latino-americana.
 
@@ -837,7 +837,7 @@ VALUES
     /*Secundário Movimentos Sociais Part-I*/
     (
         'id_noticias',
-        'id_autores',
+        30,
         'Movimento Negro no Brasil',
         'A grande luta histórica contra o racismo e pela igualdade racial avança com importantes
         conquistas. O movimento negro, um grupo de inúmeras iniciativas sociais em muitos países,
@@ -859,7 +859,7 @@ VALUES
     /*Secundário Movimentos Sociais Part-II*/
     (
         'id_noticias',
-        'id_autor',
+        30,
         'Movimentos Sociais no Brasil',
         'Movimentos Sociais Brasileiros: Liberdade de Expressão e Associação Impulsionam Lutas
          por Justiça e Direitos A liberdade de associação e expressão incluída na constituição
@@ -888,7 +888,7 @@ VALUES
     /*Secundário Sociologia Brasileira Part-I*/
     (
         'id_noticias',
-        'id_autor',
+        31,
         'FESTIVAL DE PARINTINS',
         'O Festival de Parintins acontece na cidade de Parintins, no Amazonas, desde o ano de 1965. São três dias consecutivos de desfiles e competições entre os dois bois que representam a festa: Boi Garantido e Boi Caprichoso.',
         'http://127.0.0.1:5502/img2/festivalParintins.png'
@@ -896,7 +896,7 @@ VALUES
     /*Secundário Sociologia Brasileira Part-II*/
     (
         'id_noticias',
-        'id_autor',
+        31,
         'FESTA JUNINA',
         'As Festas Juninas, também chamadas de Festa de São João, são tradicionais da região nordeste do Brasil e acontecem no mês de junho. Essa tradição foi trazida pelos portugueses e sofreu grande influência dos povos africanos e indígenas.',
         'http://127.0.0.1:5502/img/festa-junina.png'
@@ -904,7 +904,7 @@ VALUES
     /*Secundário Sociologia Brasileira Part-III*/
     (
         'id_noticias',
-        'id_autor',
+        31,
         'DESFILE DAS ESCOLAS DE SAMBA',
         'O desfile das Escolas de Samba acontece durante o carnaval e é a manifestação cultural mais famosa do Brasil. O desfile mais importante acontece na cidade do Rio de Janeiro, no Sambódromo da Marquês de Sapucaí.',
         'http://127.0.0.1:5502/img2/desfileSamba.webp'
@@ -912,15 +912,15 @@ VALUES
     /*Secundário Sociologia Brasileira Part-IV*/
     (
         'id_noticias',
-        'id_autor',
+        31,
         'FREVO',
-        'O frevo é uma dança típica do nordeste, especialmente das cidades de Recife e Olinda, em Pernambuco. É considerado Patrimônio Imaterial da Humanidade pela UNESCO.',
+        'O frevo é uma dança típica do nordeste, especialmente das cidades de Recife e Olinda, em Pernambuco. é considerado Patrimônio Imaterial da Humanidade pela UNESCO.',
         'http://127.0.0.1:5502/img2/frevo.webp'
     ),
     /*Secundário Sociologia Brasileira Part-V*/
     (
         'id_noticias',
-        'id_autor',
+        31,
         'MACULELÊ',
         'O maculelê é uma dança ou um jogo feito com bastões e acompanhado por instrumentos musicais, como o atabaque. Acredita-se que essa manifestação cultural tenha origem africana e que sofreu influência indígena no Brasil.',
         'http://127.0.0.1:5502/img2/maculele.jpg'
@@ -928,7 +928,7 @@ VALUES
     /*Secundário Sociologia Brasileira Part-VI*/
     (
         'id_noticias',
-        'id_autor',
+        31,
         'GILBERTO FREYRE',
         'Foi um sociólogo, antropólogo, deputado e professor universitário que viveu no Brasil entre 1900 e 1987, contribuindo para uma nova identidade da sociologia brasileira. A sua marca era a construção de uma ideia de democracia racial, ele não desenvolveu o conceito de democracia racial, mas o modo como construiu seu argumento, deu espaço para que outras pessoas entendessem o que era uma democracia racial. A tese da mestiçagem era um elemento positivo e constitutivo da cultura brasileira, onde a miscigenação passa a ser o traço cultural originário do Brasil.',
         'http://127.0.0.1:5502/img/gilberto.png'
@@ -936,15 +936,15 @@ VALUES
     /*Secundário Sociologia Brasileira Part-VII*/
     (
         'id_noticias',
-        'id_autor',
-        'SÉRGIO BUARQUE DE HOLANDA',
+        31,
+        'SéRGIO BUARQUE DE HOLANDA',
         'Foi um dos autores clássicos da sociologia brasileira, historiador e crítico literário, que viveu no Brasil de 1902 a 1982. O sociólogo trabalha com as ideias de homem cordial e patrimonialismo. Para ele, no Brasil há um embate entre a tradição e a modernidade, que impede o avanço da modernização no Brasil. A tradição no Brasil é a família patriarcal na sociedade colonial, com a vida privada, personalidade, e emoção e sentimento, enquanto a modernidade é o estado burocrático com a vida pública, impessoalidade e racionalidade. A busca pela identidade brasileira está relacionada a uma trajetória ligada aos ideais modernistas. “A família patriarcal fornece, assim, o grande modelo por onde se hão de calcar, na vida política, as relações entre governantes, entre monarcas e súditos”, diz Sérgio Buarque.',
         'http://127.0.0.1:5502/img/sergio.png'
     ),
     /*Secundário Sociologia Brasileira Part-VIII*/
     (
         'id_noticias',
-        'id_autor',
+        31,
         'FLORESTAN FERNANDES',
         'Florestan Fernandes foi um sociólogo, antropólogo, escritor, político e professor brasileiro que viveu no Brasil entre 1920 e 1995. O sociólogo escreveu o livro “O Negro na Sociedade de Classes”, onde expõe como os negros possuem dificuldade em se adaptar aos moldes da sociedade, em virtude de um passado com configurações sociais, culturais e morais.
 
@@ -954,7 +954,7 @@ VALUES
     /*Secundário Sociologia Brasileira Part-IX*/
     (
         'id_noticias',
-        'id_autores',
+        31,
         'DARCY RIBEIRO',
         'Darcy Ribeiro foi um antropólogo, sociólogo, educador, escritor e político brasileiro que esteve no Brasil entre os anos 1922 e 1997, e destacou-se por seu trabalho em defesa da educação e da causa indígena no País. Para ele, o Brasil é uma etnia única e essa marca étnica é dada pela miscigenação que gerou a diversidade. O processo de formação foi marcado pelo esforço deliberado de supressão de toda identidade étnica. Dessa maneira, Darcy Ribeiro acredita que nosso estado é um Estado Uniétinico, mas ainda assim, a unidade povoação não apaga as contradições, antagonismos e disparidade do nível sócio-econômico.'
         'http://127.0.0.1:5502/img/darcy.png'
