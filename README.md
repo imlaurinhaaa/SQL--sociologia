@@ -73,4 +73,4 @@ texto_simulado TEXT
 img_simulado VARCHAR (300)
 link_questionario VARCHAR (300) NOT NULL
 
-![DER](<DER - Sociologia.jpg>)
+![DER](<img/DER - Sociologia.jpg>)
