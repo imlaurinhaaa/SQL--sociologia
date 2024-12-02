@@ -12,7 +12,7 @@ CREATE TABLE
 INSERT INTO
     simulados (
         id_simulado,
-        titulo_imulado,
+        titulo_simulado,
         texto_simulado,
         img_simulado,
         link_questionario
@@ -65,8 +65,8 @@ FROM
 /*Fim tabela simulados*/
 
 /*Criação da tabela noticias*/
-CREATE TABLE noticias_carrosel(
-        id_noticia_carrosel SERIAL PRIMARY KEY,
+CREATE TABLE noticias_carrossel(
+        id_noticia_carrossel SERIAL PRIMARY KEY,
         id_autor INT,
         titulo_primario VARCHAR(150),
         descricao_noticia TEXT,
@@ -76,7 +76,7 @@ CREATE TABLE noticias_carrosel(
 
 /*Inserção de dados na tabela de noticias*/
 INSERT INTO
-    noticias_carrosel (
+    noticias_carrossel (
         id_autor,
         titulo_primario,
         descricao_noticia,
@@ -177,17 +177,17 @@ VALUES
 CREATE TABLE noticias (
         id_noticia SERIAL PRIMARY KEY,
         id_autor INT,
-        id_noticia_carrosel INT,
+        id_noticia_carrossel INT,
         titulo_noticia VARCHAR(150),
         subtitulo_noticia VARCHAR(150),
         texto_noticia TEXT,
         img_noticia VARCHAR(300),
-        CONSTRAINT fk_noticia_carrosel FOREIGN KEY (id_noticia_carrosel) REFERENCES noticias_carrosel(id_noticia_carrosel),
+        CONSTRAINT fk_noticia_carrossel FOREIGN KEY (id_noticia_carrossel) REFERENCES noticias_carrossel(id_noticia_carrossel),
         CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autores(id_autor)
 )
 
 INSERT INTO noticias (
-        id_noticia_carrosel,
+        id_noticia_carrossel,
         id_autor,
         titulo_noticia,
         subtitulo_noticia,
@@ -198,7 +198,7 @@ INSERT INTO noticias (
 VALUES
      /*Introdução LGBTQIA+*/
     (
-        'id_noticias_carrosel',
+        'id_noticias_carrossel',
         45,
         'INCLUSÃO E VISIBILIDADE LGBTQIA+',
         'Uma perspectiva sociológica',
