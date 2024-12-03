@@ -100,3 +100,19 @@ JOIN video_aulas v ON a.id_autor = v.id_autor;
 SELECT a.nome_autor, a.sessao_trabalhada, n.titulo_noticia, n.texto_noticia, n.img_noticia
 FROM autores a
 JOIN noticias n ON a.id_autor = n.id_autor;
+
+-- Criação do relacionamento entre autores e noticias carrossel
+SELECT a.nome_autor, a.sessao_trabalhada, nc.titulo_primario, nc.descricao_noticia, nc.img_primaria
+FROM autores a
+JOIN noticias_carrossel nc ON a.id_autor = nc.id_autor;
+
+-- SELECTS diversos
+SELECT a.nome_autor, nc.titulo_primario, nc.descricao_noticia FROM autores a JOIN noticias_carrossel nc ON a.id_autor = nc.id_autor;
+
+SELECT nc.titulo_primario, nc.descricao_noticia, nc.img_primaria, n.titulo_noticia, n.subtitulo_noticia, n.texto_noticia, n.img_noticia FR
+OM noticias_carrossel nc JOIN noticias n ON nc.id_noticia_carrossel = n.id_noticia_carrossel;
+
+-- Funções
+SELECT COUNT(titulo_primario)
+AS numero_de_noticia
+FROM noticias_carrossel;
