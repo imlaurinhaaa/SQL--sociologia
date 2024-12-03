@@ -1,4 +1,4 @@
-# Introdução ao Banco de Dados de Sociologia
+-# Introdução ao Banco de Dados de Sociologia
 
 Atividade referente ao projeto: Portal de Matérias
 
