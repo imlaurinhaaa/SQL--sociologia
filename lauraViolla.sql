@@ -100,3 +100,8 @@ JOIN video_aulas v ON a.id_autor = v.id_autor;
 SELECT a.nome_autor, a.sessao_trabalhada, n.titulo_noticia, n.texto_noticia, n.img_noticia
 FROM autores a
 JOIN noticias n ON a.id_autor = n.id_autor;
+
+-- Criação do relacionamento entre autores e noticias carrossel
+SELECT a.nome_autor, a.sessao_trabalhada, nc.titulo_primario, nc.descricao_noticia, nc.img_primaria
+FROM autores a
+JOIN noticias_carrossel nc ON a.id_autor = nc.id_autor;
