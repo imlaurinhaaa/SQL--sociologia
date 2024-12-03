@@ -9,7 +9,8 @@ CREATE TABLE carreiras(
 
 -- INSERÇÃO DE DADOS NA TABELA 'CARREIRAS'
 
-INSERT INTO carreiras (titulo_carreira, texto_carreira, img_carreira) VALUES ('Professor de Sociologia', 'O professor de Sociologia tem o papel de promover a reflexão crítica sobre a sociedade, abordando temas como desigualdade, cultura e poder. Ele conecta teorias sociológicas à realidade cotidiana, ajudando os alunos a desenvolverem uma visão crítica e participativa. A profissão exige sensibilidade social, diálogo e atualização constante.', 'https://site-sociologia.vercel.app/img/professor.jpg'),
+INSERT INTO carreiras (titulo_carreira, texto_carreira, img_carreira) VALUES 
+('Professor de Sociologia', 'O professor de Sociologia tem o papel de promover a reflexão crítica sobre a sociedade, abordando temas como desigualdade, cultura e poder. Ele conecta teorias sociológicas à realidade cotidiana, ajudando os alunos a desenvolverem uma visão crítica e participativa. A profissão exige sensibilidade social, diálogo e atualização constante.', 'https://site-sociologia.vercel.app/img/professor.jpg'),
 ('Pesquisa Aplicada', 'A pesquisa aplicada utiliza métodos científicos para resolver problemas práticos, transformando teoria em inovações concretas. O pesquisador colabora com diversas áreas, unindo habilidades analíticas e criatividade para enfrentar desafios reais e promover o desenvolvimento sustentável.', 'https://site-sociologia.vercel.app/img/pesquisaAplicada.jpg'),
 ('Políticas Públicas', 'A profissão de políticas públicas foca no planejamento e implementação de ações governamentais para resolver problemas sociais. O profissional analisa dados e desenvolve propostas para setores como saúde, educação e segurança, com o objetivo de promover justiça social e desenvolvimento sustentável.', 'https://site-sociologia.vercel.app/img/pol%C3%ADticaP%C3%BAblica.jpg'),
 ('Sociólogo(a)', 'O profissional sociólogo é responsável por analisar, entender e explicar a sociedade, a cultura e os fenômenos sociais. Ele busca compreender o mundo em que vivemos, identificando as relações sociais e as estruturas sociais que influenciam a vida de cada indivíduo. O profissional sociólogo é capaz de aplicar suas conhecimentos em diferentes áreas, como políticas públicas, educação, saúde, entre outras.', 'https://site-sociologia.vercel.app/img/sociologo.jpeg'),
@@ -22,23 +23,19 @@ INSERT INTO carreiras (titulo_carreira, texto_carreira, img_carreira) VALUES ('P
 ('Urbanista/Planejador Urbano', 'O urbanista é responsável pela organização das cidades, estudos de legislação, criação de áreas verdes, entre outras atividades relacionadas ao desenvolvimento urbano. O papel do urbanista é fundamental para sociedade, pois ele é o profissional que estuda as melhores formas de criar cidades amigáveis. Além disso, o trabalho do urbanista contribui para o bem-estar mental e físico da população, já que melhorias no espaço urbano influenciam diretamente nessas questões.', 'https://site-sociologia.vercel.app/img/O-que-um-urbanista-faz-1.webp'),
 ('Mediador(a) de Conflitos', 'Mediador não é juiz ou advogado. Muito menos médico ou psicólogo. Pode ter a formação de qualquer uma dessas profissões, mas enquanto mediador, seu objetivo é conduzir o processo para a resolução daquele determinado conflito. Sua contribuição pode ser passiva, limitando-se a simplesmente a manter uma linha coerente de discussão, ou pode ser mais ativa, ajudando na resolução de conflitos e conduzindo a situação para uma resolução.', 'https://site-sociologia.vercel.app/img/Mediation-014.jpg');
 
+
 -- CRIAÇÃO DA TABELA 'principais_topicos'
 
-CREATE TABLE principais_topicos{
-    id_principais_topicos SERIAL PRIMARY KEY,
+CREATE TABLE principais_topicos(
+    id_principal_topico SERIAL PRIMARY KEY,
     id_autor INT,
     topico VARCHAR(150),
-    titulo_principais_topicos(150),
+    titulo_principais_topicos VARCHAR(150),
     texto_principais_topicos TEXT,
     img_principais_topicos VARCHAR(300),
     CONSTRAINT fk_autor FOREIGN KEY (id_autor) REFERENCES autores(id_autor)
-}
+);
 
 -- INSERÇÃO DE DADOS NA TABELA 'principais_topicos'
 
-INSERT INTO principais topicos (id_autor, topico, titulo_principais_topicos, texto_principais_topicos, img_principais_topicos) VALUES (?, 'CULTURA', 'CULTURA NA SOCIOLOGIA', 'Cultura é um conceito amplo que refere-se ao conjunto de crenças, tradições, costumes, símbolos e valores que moldam a sociedade. Dessa forma, a cultura é algo que diferencia uma sociedade da outra, representando o parâmetro social de um grupo somando o conhecimento padrão do humanos e envolvendo: conhecimentos, experiências, atitudes, valores, crenças, religião, língua, hierarquia, relações espaciais, noção de tempo, conceitos de universo.', 'https://site-sociologia.vercel.app/img/culturapages.jpeg'),
-(?, 'CULTURA', 'PRIMEIRAS NOÇÕES DE CULTURA', 'No contexto científico e filosófico, as primeiras noções de cultura como conceito universal surgiram no século XVIII e XIX, com o surgimento da Antropologia e da Sociologia. As primeiras noções de cultura surgiram na tentativa de entender as diferenças entre o modo de vida da sociedade.
-Primeiras Noções Científicas de Cultura:
-Johann Gottfried Herder (século XVIII): Herder foi um dos primeiros pensadores a defender que todas as sociedades têm sua própria cultura, em oposição à ideia de uma cultura única e superior. Para ele, cada povo tem um espírito que se manifesta em suas práticas e tradições
-Edward Burnett Tylor (século XIX): Considerado o "pai da Antropologia britânica", Tylor deu uma das primeiras definições modernas de cultura em seu livro Primitive Culture (1871), afirmando que cultura é "aquele todo complexo que inclui conhecimento, crenças, arte, moral, leis, costumes e quaisquer outras capacidades e hábitos adquiridos pelo homem como membro da sociedade". Essa visão ampliou o conceito de cultura para além das elites, aplicando-o a todas as sociedades, sejam elas “primitivas” ou “avançadas”.
-Evolucionismo Cultural: No final do século XIX, pensadores como Herbert Spencer e Tylor defenderam a ideia de que as culturas humanas evoluíram de formas simples para formas mais complexas, uma visão fortemente influenciada pela teoria da evolução de Darwin. Segundo essa perspectiva, as sociedades eram vistas em diferentes estágios de desenvolvimento cultural, indo de "primitivas" a "civilizadas".'),
+INSERT INTO principais topicos (id_autor, topico, titulo_principais_topicos, texto_principais_topicos, img_principais_topicos) VALUES ()
