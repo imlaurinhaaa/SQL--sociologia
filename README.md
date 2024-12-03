@@ -1,10 +1,18 @@
--# Introdução ao Banco de Dados de Sociologia
+# Introdução ao Banco de Dados de Sociologia
 
 Atividade referente ao projeto: Portal de Matérias
+Projeto criado para armazenar dados inseridos no site de Sociologia.
 
 Docentes: Felipe Santos e Thiago Ferreira
 
 Bem-vindo ao banco de dados do site de sociologia! Este banco de dados foi desenvolvido para armazenar organizar e facilitar o acesso a informações relevantes para os estudantes.
+
+### Integrantes da Equipe
+Laura Ferreira Violla: Product Owner;
+Evelyn Gonçalves de Oliveira: Scrum Master;
+Bruna Nascimento Savelli: Desenvolvedor;
+Lucas Zani da Costa Luz: Desenvolvedor;
+Luiz Henrique Ricci Aureliano: Desenvolvedor.
 
 ## MER do Banco de Dados de Sociologia
 
@@ -72,5 +80,9 @@ titulo_simulado VARCAR (150)
 texto_simulado TEXT
 img_simulado VARCHAR (300)
 link_questionario VARCHAR (300) NOT NULL
+
+## DER do Banco de Dados de Sociologia
+
+O DER (Diagrama de Entidade e Relacionamento) é utilizado de uma forma gráfica representar o MER, aqui está o DER criado pela equipe:
 
 ![DER](<img/DER - Sociologia.jpg>)
